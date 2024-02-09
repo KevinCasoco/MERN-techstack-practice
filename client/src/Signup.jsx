@@ -1,4 +1,6 @@
-import { useState } from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Signup () {
 
@@ -46,11 +48,11 @@ function Signup () {
                     <button type="submit" className="btn btn-success w-100 rounded 0">
                         Register
                     </button>
-                    <p>Already have an account?</p>
-                    <button type="submit" className="btn btn-default border w-100  bg-light rounded 0 text-decoration-none">
-                        Login
-                    </button>
                 </form>
+                <p>Already have an account?</p>
+                    <Link to="/login" className="btn btn-default border w-100  bg-light rounded 0 text-decoration-none">
+                        Login
+                    </Link>
         </div>
     </div>
   );
