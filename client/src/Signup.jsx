@@ -1,29 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from "react";
 
-const Signup = () => {
-//   const [email, setEmail] = useState('');
-//   const [password, setPassword] = useState('');
-
-//   const handleEmailChange = (e) => {
-//     setEmail(e.target.value);
-//   };
-
-//   const handlePasswordChange = (e) => {
-//     setPassword(e.target.value);
-//   };
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     // You can add your signup logic here
-//     console.log('Email:', email);
-//     console.log('Password:', password);
-//     // Clear form fields after submission
-//     setEmail('');
-//     setPassword('');
-//   };
+function Signup () {
 
   return (
-    <div className="d-flex justify-content center align-items-center bg-secondary vh-100">
+    <div className="d-flex justify-content-center align-items-center bg-secondary vh-100">
         <div className="bg-white p-3 rounded w-25">
             <h2>Register</h2>
                 <form>
@@ -74,6 +54,6 @@ const Signup = () => {
         </div>
     </div>
   );
-};
+}
 
 export default Signup;

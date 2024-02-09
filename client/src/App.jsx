@@ -6,7 +6,7 @@ function App() {
 
   return (
       <div>
-        <Signup/>
+        <Signup />
       </div>
   )
 }
